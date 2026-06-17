@@ -21,11 +21,11 @@ Project website: [https://aleklabs.dev/keyboard-layer](https://aleklabs.dev/keyb
 
 ## Installation
 
-Alek Labs Keyboard Layer requires [AutoHotkey](https://www.autohotkey.com/) on Windows.
+Alek Labs Keyboard Layer requires [AutoHotkey v2](https://www.autohotkey.com/) on Windows.
 
 ### Recommended installation
 
-1. Install [AutoHotkey](https://www.autohotkey.com/).
+1. Install [AutoHotkey v2](https://www.autohotkey.com/).
 2. Download the latest release: [aleklabs-keyboard-layer.zip](https://github.com/AlekLabs/keyboard-layer/releases/latest/download/aleklabs-keyboard-layer.zip).
 3. Extract the ZIP file.
 4. Run `aleklabs-keyboard-layer.ahk`.
