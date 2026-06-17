@@ -15,6 +15,10 @@ The workflow remains non-modal: there is no persistent navigation mode, only sho
 
 Project website: [https://aleklabs.dev/keyboard-layer](https://aleklabs.dev/keyboard-layer)
 
+## Video demonstration
+
+[Alek Labs Keyboard Layer demo / VS Code (Vue + TS) coding](https://www.youtube.com/watch?v=0xOTwnxID_I)
+
 ## Installation
 
 Alek Labs Keyboard Layer requires [AutoHotkey](https://www.autohotkey.com/) on Windows.
