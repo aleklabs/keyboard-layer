@@ -11,7 +11,11 @@
 ; Email: aleklabs.dev@gmail.com
 ; Website: https://aleklabs.dev/keyboard-layer
 
-Menu, Tray, Icon, %A_ScriptDir%\aleklabs-keyboard-layer.ico,, 1
+; display icon (if exists) and name in the system tray
+Menu, Tray, UseErrorLevel
+iconPath := A_ScriptDir . "\aleklabs-keyboard-layer.ico"
+if FileExist(iconPath)
+    Menu, Tray, Icon, %iconPath%,, 1
 Menu, Tray, Tip, Alek Labs Keyboard Layer
 
 CapsLock::Enter                 ; remaps CapsLock to Enter
