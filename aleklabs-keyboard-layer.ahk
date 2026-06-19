@@ -50,12 +50,13 @@ CapsLock::Enter                 ; remaps CapsLock to Enter
 !h::Send "{Backspace}"          ; deletes character left
 !;::Send "{Delete}"             ; deletes character right
 !j::Send "^{Backspace}"         ; deletes word left
-!Backspace::Send "^{Backspace}" ; deletes word left
 !l::Send "^{Delete}"            ; deletes word right
 !o::Send "+{End}{Delete}"       ; deletes to end of line
 !u::Send "+{Home}{Delete}"      ; deletes to beginning of line
 
 #HotIf
+
+!Backspace::Send "^{Backspace}" ; deletes word left (fallback if you prefer backspace)
 
 ; COPY-PASTE
 
